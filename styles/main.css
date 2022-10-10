@@ -1,0 +1,69 @@
+*{
+  box-sizing: border-box;
+}
+
+body{
+  margin: 0;
+}
+
+img{
+  vertical-align: middle;
+}
+
+.container{
+  width: 1920px;
+  padding: 0 126px 0 140px;
+  margin:0 auto;
+}
+
+.header-inner{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 77px;
+  background: #FFF2E1;
+  background-image: url("../images/Polygon.png");
+  background-repeat: no-repeat;
+  background-position: calc(3%) center;
+}
+
+nav{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.nav-list{
+  display: flex;
+
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+
+
+}
+
+.nav-item{
+  margin-right:80px;
+}
+
+.nav-link{
+  text-decoration: none;
+}
+
+.button{
+padding:14px 36px;
+border:0;
+}
+
+.login{
+  background: #FFFFFF;
+  box-shadow: 0px 20px 24px rgba(0, 0, 0, 0.03);
+  border-radius: 80px;
+  margin-right:34px
+}
+
+.sign-up{
+  background: #F48C06;
+  border-radius: 80px;
+}
